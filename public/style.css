@@ -101,19 +101,6 @@ ul li.nav-item {
     color: #ffffff;
 }
 
-.navbar-brand {
-    font-size: 2rem;
-    color: white;
-}
-
-.nav-link {
-    color: white;
-}
-
-.dropdown-item {
-    font-size: 1.35rem;
-}
-
 .header {
     height: 60vh;
 }
@@ -195,127 +182,8 @@ ul li.nav-item {
     max-width: 45%;
     padding: 12px 0 0 15px;
 }
-/*events section*/
-.event-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: white;
-}
 
-.event-header-line {
-    width: 50px;
-    margin-top: 65px;
-}
-
-.header-text {
-    margin-top: 40px;
-    color: #333333;
-}
-
-.date-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 55px;
-}
-
-.date-text {
-    font-size: 35px;
-    font-family: Arial;
-    color: black;
-    border-bottom: solid #333333
-}
-
-.location-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.location-list {
-    font-size: 25px;
-    font-family: Arial;
-    color: black;
-    text-align: center;
-    list-style-type: none;
-}
-
-.location-list li {
-    margin: 10px;
-}
-
-.location-maps {
-    float: left;
-    width: 50%;
-    padding-right: 15px;
-}
-
-.location-maps img {
-    width: 500px;
-    height: 250px;
-}
-
-.last-date-container {
-    margin-bottom: 100px;
-}
-
-/************************************
-CONTACT SECTION
-************************************/
-input[type=text] {
-    border: none;
-    resize: vertical;
-}
-
-textarea {
-    height: 300px;
-    width: 900px;
-    border: 2px solid #333333;
-    resize: none;
-    margin-bottom: 10px;
-    resize: none;
-}
-
-.contact-container {
-    width: 100%;
-
-    padding-bottom: 65px;
-
-}
-
-.headerline {
-    width: 90px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 65px;
-    padding-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    width: 240px;
-    height: 80px;
-    margin-bottom: 40px;
-    float: right;
-}
-
-.btn:hover {
-    background-color: green;
-}
-
-/************************************
-FOOTER SECTION
-************************************/
+/*footer*/
 .footer {
     height: 150px;
     width: 100%;
@@ -327,21 +195,6 @@ FOOTER SECTION
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    list-style-type: none;
-}
-
-.footer-list a {
-    color: white;
-}
-
-.footer-list a:hover, a:active {
-    color: black;
 }
 
 .footer-icons {
@@ -356,19 +209,6 @@ FOOTER SECTION
     border-radius: 50%;
 }
 
-.fab {
-    padding-right: 20px;
-    font-size: 1.7rem;
-    color: white;
-    transition: .3s;
-}
-
-.fab:hover {
-    color: black;
-    animation: .2s;
-    cursor: pointer;
-}
-
 @media screen and (max-width: 991.98px) {
 
     a.nav-link {
@@ -378,29 +218,6 @@ FOOTER SECTION
 
     .navbar-nav .nav-item:first-child {
         margin-top: 30px;
-    }
-
-    .location-container {
-        margin-top: 0;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .location-maps {
-        width: 90%;
-        height: auto;
-        margin-left: 0px;
-    }
-
-    .location-maps img {
-        width: 90%;
-        height: auto;
-    }
-
-    .contact-form, .contact-form-underline, input[type=text], textarea {
-        width: 100%;
-        margin-top: 0;
     }
 
 }
@@ -414,14 +231,6 @@ FOOTER SECTION
         padding-top: 65px;
     }
 
-    #goals-inner-div {
-        padding-top: 50px;
-    }
-
-    .footer-list {
-        padding-left: 5%;
-    }
-
     .footer img {
         width: 35px;
     }
@@ -429,21 +238,13 @@ FOOTER SECTION
 
 @media only screen and (max-width: 576px) {
 
-    #goals-inner-div div {
-        height: 900px;
-    }
-
 }
 
 @media only screen and (max-width: 499px) {
-    #goals-inner-div div {
-        height: 1000px;
-    }
+
 }
 
 @media only screen and (max-width: 430px) {
-    #goals-inner-div div {
-        height: 1250px;
-    }
+
 }
 
