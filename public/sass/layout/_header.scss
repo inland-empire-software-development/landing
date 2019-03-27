@@ -1,5 +1,4 @@
 //header specific styles
-@import '../abstracts/mixins';
 
 .header {
     height: 60vh;
@@ -13,7 +12,7 @@
 }
 
 .heading-primary {
-    color: #000000;
+    color: $black;
     text-transform: uppercase;
     /*the below code removes the jump caused by animatimon. it is a hack*/
     backface-visibility: hidden;
@@ -36,6 +35,6 @@
     font-weight: 700;
     text-align: center;
     animation: moveInRight 2s ease-out;
-    
+
     @include moveInRight;
 }

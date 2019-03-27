@@ -11,7 +11,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "lato", sans-serif;
-    color: #ffffff;
+    color: $white;
 }
 
 .headline-1 {
@@ -36,26 +36,26 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     font-family: 'open sans', sans-serif;
-}
 
-a:hover {
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    &:hover {
+        text-decoration: none;
+        color: $white;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    };
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: #fdfdfd;
+    color: $slightly-darker-white;
     font-size: 14px;
     line-height: 3.5rem;
     letter-spacing: 0.52px;
 }
 
 .text-black {
-    color: #000000;
+    color: $black;
 }
 
 .text-white {
-    color: #ffffff;
+    color: $white;
 }

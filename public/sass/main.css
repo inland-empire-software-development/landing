@@ -176,7 +176,7 @@ p {
   padding: 10px 10%;
   position: relative;
   font-size: 1.6rem;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -189,7 +189,6 @@ p {
   flex-direction: column;
   align-items: flex-end;
 }
-
 .footer-icons img {
   width: 40px;
   border-radius: 50%;
@@ -200,111 +199,6 @@ p {
   }
 }
 
-/* animations */
-@-webkit-keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-90px);
-  }
-  70% {
-    transform: translateX(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@-moz-keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-90px);
-  }
-  70% {
-    transform: translateX(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@-o-keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-90px);
-  }
-  70% {
-    transform: translateX(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-90px);
-  }
-  70% {
-    transform: translateX(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@-webkit-keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(90px);
-  }
-  70% {
-    transform: translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@-moz-keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(90px);
-  }
-  70% {
-    transform: translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@-o-keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(90px);
-  }
-  70% {
-    transform: translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(90px);
-  }
-  70% {
-    transform: translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
 .header {
   height: 60vh;
 }
@@ -357,12 +251,11 @@ p {
 nav img {
   max-width: 90px;
 }
-
 nav a {
   font-size: 14px;
 }
 nav a:active {
-  color: #dfdfdf;
+  color: #ffffff;
 }
 
 ul li.nav-item {

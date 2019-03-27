@@ -1,16 +1,16 @@
 //default theme styles
 .bg-dark {
-    background-color: #333333 !important;
+    background-color: $dark !important;
 }
 
 .bg-darker {
-    background-color: #282828;
+    background-color: $darker;
 }
 
 .bg-darkest {
-    background-color: #181818;
+    background-color: $darkest;
 }
 
 .bg-black {
-    background-color: #000000;
+    background-color: $black;
 }
