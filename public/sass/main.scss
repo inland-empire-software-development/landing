@@ -1,1 +1,32 @@
 //Main Sass file
+
+/* abstracts */
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+/* vendors */
+@import 'vendors/bootstrap';
+
+/* base */
+@import 'base/reset';
+@import 'base/typography';
+
+/* layout */
+@import 'layout/aboutus';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/mission';
+@import 'layout/navigation';
+
+/* components */
+@import 'components/headerlines';
+
+/* pages */
+@import 'pages/landing';
+
+/* themes */
+@import 'themes/landing';
+
+
