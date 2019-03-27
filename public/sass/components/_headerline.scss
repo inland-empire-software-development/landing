@@ -1,0 +1,15 @@
+//header line specific styles
+
+.header-line {
+    width: 95px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 65px;
+
+    @media screen and (max-width: 768px) {
+    	width: 65px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 65px;
+    }
+}
