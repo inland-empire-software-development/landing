@@ -17,16 +17,10 @@
 }
 
 @mixin animate($name, $duration, $iteration, $direction, $timing-function){
-	// animation-name: $name;
-	// animation-duration: $duration;
-	// animation-iteration-count: $iteration;
-	// animation-direction: $direction;
-	// animation-timing-function: $timing-function;
 	-webkit-animation: $name $duration $iteration $direction $timing-function;
 	-moz-animation: $name $duration $iteration $direction $timing-function;
 	-o-animation: $name $duration $iteration $direction $timing-function;
 	animation: $name $duration $iteration $direction $timing-function;
-	// animation: $name 2s ease-out;
 }
 
 @include keyframes(moveInLeft) {
