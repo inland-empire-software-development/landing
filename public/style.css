@@ -1,5 +1,5 @@
 /*font setup*/
-/*html {
+html {
     font-size: 10px;
 }
 
@@ -45,39 +45,39 @@ p {
     line-height: 3.5rem;
     letter-spacing: 0.52px;
 }
-*/
-/*navigation*/
-/*nav img {
-    max-width: 90px;
-}*/
 
-/*nav a {
+/*navigation*/
+nav img {
+    max-width: 90px;
+}
+
+nav a {
     font-size: 14px;
 }
 
 nav a:active {
     color: #dfdfdf;
-}*/
+}
 
-/*ul li.nav-item {
+ul li.nav-item {
     margin: 0 10px;
 }
 
 .navbar-nav {
     z-index: 10;
     position: relative;
-}*/
+}
 
 /*art elements*/
-/*.header-line {
+.header-line {
     width: 95px;
     display: block;
     margin: 0 auto;
     padding-top: 65px;
-}*/
+}
 
 /*backgrounds*/
-/*.bg-dark {
+.bg-dark {
     background-color: #333333 !important;
 }
 
@@ -91,21 +91,21 @@ nav a:active {
 
 .bg-black {
     background-color: #000000;
-}*/
+}
 
-/*.text-black {
+.text-black {
     color: #000000;
 }
 
 .text-white {
     color: #ffffff;
-}*/
+}
 
-/*.header {
+.header {
     height: 60vh;
-}*/
+}
 
-/*.text-box {
+.text-box {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -114,12 +114,12 @@ nav a:active {
 
 .heading-primary {
     color: #000000;
-    text-transform: uppercase;*/
+    text-transform: uppercase;
     /*the below code removes the jump caused by animatimon. it is a hack*/
-/*    backface-visibility: hidden;
-}*/
+    backface-visibility: hidden;
+}
 
-/*.heading-primary-main {
+.heading-primary-main {
     display: block;
     font-size: 2.5rem;
     text-align: center;
@@ -135,9 +135,9 @@ nav a:active {
     font-weight: 700;
     text-align: center;
     animation: moveInRight 2s ease-out
-}*/
+}
 
-/*@keyframes moveInLeft {
+@keyframes moveInLeft {
     0% {
         opacity: 0;
         transform: translateX(-90px)
@@ -168,23 +168,23 @@ nav a:active {
         transform: translate(0)
     }
 }
-*/
+
 /*about us*/
-/*#aboutus-div p img {
+#aboutus-div p img {
     max-width: 45%;
     float: left;
     padding: 12px 15px 0 0;
-}*/
+}
 
 /*mission*/
-/*#mission-div p img {
+#mission-div p img {
     float: right;
     max-width: 45%;
     padding: 12px 0 0 15px;
-}*/
+}
 
 /*footer*/
-/*.footer {
+.footer {
     height: 150px;
     width: 100%;
     padding: 10px 10%;
@@ -207,9 +207,9 @@ nav a:active {
 .footer-icons img {
     width: 40px;
     border-radius: 50%;
-}*/
+}
 
-/*@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) {
 
     a.nav-link {
         text-transform: uppercase;
@@ -220,10 +220,10 @@ nav a:active {
         margin-top: 30px;
     }
 
-}*/
+}
 
 /* Medium devices (tablets, 768px and down) */
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .header-line {
         width: 65px;
         display: block;
@@ -246,5 +246,5 @@ nav a:active {
 
 @media only screen and (max-width: 430px) {
 
-}*/
+}
 

@@ -1,4 +1,5 @@
 //header specific styles
+@import '../abstracts/mixins';
 
 .header {
     height: 60vh;
@@ -24,7 +25,8 @@
     text-align: center;
     font-weight: 400;
     letter-spacing: 1rem;
-    animation: moveInLeft 2s ease-out;
+    
+    @include moveInLeft;
 }
 
 .heading-primary-sub {
@@ -33,5 +35,7 @@
     letter-spacing: .2rem;
     font-weight: 700;
     text-align: center;
-    animation: moveInRight 2s ease-out
+    animation: moveInRight 2s ease-out;
+    
+    @include moveInRight;
 }
