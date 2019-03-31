@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 //images
-import headerLine from './assets/header-line-black.svg';
+import headerLine from "./assets/header-line-black.svg";
 
 const Events = () => {
 	return (

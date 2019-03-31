@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import WebFont from 'webfontloader';
+import React, { Component } from "react";
+import WebFont from "webfontloader";
 
 //components
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
+import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
 
 //sections
-import Header from './components/Sections/Header/Header';
-import AboutUs from './components/Sections/AboutUs/AboutUs';
-import Mission from './components/Sections/Mission/Mission';
-import Events from './components/Sections/Events/Events';
+import Header from "./components/Sections/Header/Header";
+import AboutUs from "./components/Sections/AboutUs/AboutUs";
+import Mission from "./components/Sections/Mission/Mission";
+import Events from "./components/Sections/Events/Events";
 
 //sections
 
 class App extends Component{
 	componentDidMount(){
 		WebFont.load({
-	    google: {
-	      families: ['Lato', 'Open Sans']
-	    }
+			google: {
+				families: ["Lato", "Open Sans"]
+			}
 		});
 	}
 
@@ -37,6 +37,6 @@ class App extends Component{
 			</div>
 		);
 	};
-};
+}
 
 export default App;
