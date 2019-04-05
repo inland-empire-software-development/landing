@@ -5,5 +5,5 @@ import "./sass/main.scss";
 import App from "./App/App";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
