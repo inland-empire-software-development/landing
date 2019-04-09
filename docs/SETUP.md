@@ -3,7 +3,17 @@
 # **Getting Started**
 <a name="getting-started"></a>
 
+## **Content**
+* [Not yet a contributor](#not-contributor)
+* [Already a contributor](#already-contributor)
+* [Prerequisite](#prerequisite)
+* [Cloning](#cloning)
+* [Installation](#installation)
+* [Running the project](#run-project)
+
+
 ## **Not yet a contributor**
+<a name="not-contributor"></a>
   If you're not a **contributor** you can contact an admin on Slack to become a contributor or you can fork the repo and contribute from there.
   
   * **How to fork** 
@@ -25,16 +35,18 @@
   </p>
 
 ## **Already a contributor**
+<a name="already-contributor"></a>
 If you're already a contributor, then just follow the instructions below.
 
 ## **Prerequisite**
-
+<a name="prerequisite"></a>
 These are the basic requirements to get the project running on your machine
 
 * git (to clone the repository and push changes to the repo)
 * yarn (to install packages)
 
 ## **Cloning**
+<a name="cloning"></a>
 Getting a copy of the project onto your machine.
 ```bash
   # clone the repo using https
@@ -45,7 +57,7 @@ Getting a copy of the project onto your machine.
 ```
 
 ## **Installation**
-  <a name="installation"></a>
+<a name="installation"></a>
   This installs all the packages required to run the project.
 
   **NOTE:** Yarn is required.
@@ -55,6 +67,7 @@ Getting a copy of the project onto your machine.
   ```
  
 ## **Running the project on your computer**
+<a name="run-project"></a>
   **NOTE:** This make take a few minutes to start up.
   ```bash
   # starting the project
