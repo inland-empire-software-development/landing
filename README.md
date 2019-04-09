@@ -38,20 +38,20 @@ We encourage everyone to contribute to this project, as it is a great way to get
 If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). We welcome everyone to our Slack, so don't be afraid to join! Have fun coding!
 
 ## **Setup**
-* [Getting Started](./docs/SETUP.md)
+*  [Getting Started](./docs/SETUP.md)
 
 ## **Technology Overview**
-* [Libraries & Packages]()
-* [Testing]()
+*  [Libraries & Packages]()
+*  [Testing]()
 
 ## **Contributing**
-* [Contributing To The Project](./docs/CONTRIBUTING.md)
-* [Style Guide]()
-* [List of Components]()
+*  [Contributing To The Project](./docs/CONTRIBUTING.md)
+*  [Style Guide]()
+*  [List of Components]()
 
 ## **Other**
-* [Resources]()
-* [Troubleshooting]()
+*  [Resources]()
+*  [Troubleshooting]()
 
 ## **Code of Conduct**
 
