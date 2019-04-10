@@ -50,6 +50,7 @@ If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). W
 
 ## **Other**
 *   [Troubleshooting]()
+*   [Design](./docs/DESIGN.md)
 
 ## **Code of Conduct**
 
