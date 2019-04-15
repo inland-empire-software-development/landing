@@ -16,13 +16,13 @@ const Footer = () => {
 					<p>CONNECT WITH US</p>
 					<div>
 						<a className="mx-1" href="https://github.com/inland-empire-software-development">
-							<img src={gitHubLogo} />
+							<img alt="GitHub" src={gitHubLogo} />
 						</a>
 						<a className="mx-1" href="https://www.facebook.com/groups/IESoftwareDevelopment/">
-							<img src={facebookLogo} />
+							<img alt="Facebook" src={facebookLogo} />
 						</a>
 						<a className="mx-1" href="https://ie-sd.slack.com/">
-							<img src={slackLogo} />
+							<img alt="Slack" src={slackLogo} />
 						</a>
 					</div>
 				</div>
