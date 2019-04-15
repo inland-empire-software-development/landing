@@ -2,7 +2,7 @@
 
 # **Style Guide**
 <a name="style-guide"></a>
-We encourage you to contribute! Inland Empire Software Development is always pushing members to contribute to open source software. If you're looking for a way to contribute, ask for an admin on our [Slack](https://ie-sd.slack.com) and we will be more than happy to help you with your first contribution.
+The style guide is a set of design rules that the website follows. 
 
 ## **Content**
 *   [Branding Guideline](#branding-guideline)
