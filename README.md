@@ -46,7 +46,7 @@ If you have any questions, please ask on our [Slack](https://ie-sd.slack.com). W
 
 ## **Contributing**
 *   [Contributing To The Project](./docs/CONTRIBUTING.md)
-*   [Style Guide]()
+*   [Style Guide](./docs/STYLE-GUIDE.md)
 
 ## **Other**
 *   [Troubleshooting]()

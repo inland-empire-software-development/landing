@@ -3,6 +3,8 @@
 # **Design**
 The design of the website is divided into four sections that are independent of each other. The sections are header, about us, mission and events. The site includes a navbar and a footer as well.
 
+Also, if you're looking to do any form of designing, please check our [branding guideline](./STYLE-GUIDE) first.
+
 
 ## **Content**
 *   [Navbar](#navbar)
