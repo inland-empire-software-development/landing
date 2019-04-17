@@ -11,18 +11,18 @@ const Nav = () => {
 						<img src={logo} alt="freeCodeCamp logo" />
 							<button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
 							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span className="navbar-toggler-icon"></span>
+							<span id="menuIcon" className="navbar-toggler-icon"></span>
 						</button>
 						<div className="w-100 collapse navbar-collapse justify-content-end" id="navbarNav">
 							<ul className="navbar-nav align-items-center">
 								<li className="nav-item">
-									<a className="text-white font-weight-bold" href="#aboutus-div">Overview</a>
+									<a className="text-white font-size font-weight-bold" href="#aboutus-div">Overview</a>
 								</li>
 								<li className="nav-item">
-									<a className="text-white font-weight-bold" href="#mission-div">Mission</a>
+									<a className="text-white font-size font-weight-bold" href="#mission-div">Mission</a>
 								</li>
 								<li className="nav-item">
-									<a className="text-white font-weight-bold" href="#events-div">Events</a>
+									<a className="text-white font-size font-weight-bold" href="#events-div">Events</a>
 								</li>
 							</ul>
 						</div>
