@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import WebFont from "webfontloader";
+import 'bootstrap';
 
 //components
 import Nav from "./components/Nav/Nav";
