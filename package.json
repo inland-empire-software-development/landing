@@ -6,25 +6,26 @@
   "author": "tonynguyen111997 <tonynguyen111997@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "node-sass": "^4.11.0",
-    "popper.js": "^1.14.7",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.1.0",
+    "next-images": "^1.1.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^2.1.8",
-    "webfontloader": "^1.6.28"
+    "react-dom": "^16.8.6"
   },
   "scripts": {
+    "dev": "next",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "calcite-web": "github:Esri/calcite-web#v1.2.5"
+  }
 }
